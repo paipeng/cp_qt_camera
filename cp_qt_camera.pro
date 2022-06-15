@@ -1,4 +1,5 @@
 QT -= gui
+QT += multimedia multimediawidgets
 
 TEMPLATE = lib
 DEFINES += CP_QT_CAMERA_LIBRARY
@@ -14,7 +15,8 @@ SOURCES += \
 
 HEADERS += \
     cp_qt_camera_global.h \
-    cpcamera.h
+    cpcamera.h \
+    cpcamera_interface.h
 
 TRANSLATIONS += \
     cp_qt_camera_zh_CN.ts
